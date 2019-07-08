@@ -55,7 +55,7 @@ The schematic will:
 - install necessary dependencies
 - configure `serve`, `build`, and `test` architects of your app (these will use a custom builder to allow for custom webpack configurations)
 
-Once all that is done, we can take adventage of this library and define some event streams in our templates 🎉.
+Once all that is done, we can take advantage of this library and define some event streams in our templates 🎉.
 
 ## Syntax
 
@@ -75,7 +75,7 @@ More specifically there are 3 core building blocks:
 2. template stream name
 3. payload
 
-The payload is **optional** and can litereally be anything as long as it follows the syntax above. So optional doesn't mean you can go wild and define the payload in whatever form you like. More on this [here](#overwriting-the-event-payload).
+The payload is **optional** and can literally be anything as long as it follows the syntax above. So optional doesn't mean you can go wild and define the payload in whatever form you like. More on this [here](#overwriting-the-event-payload).
 
 Now, let's check out how we can use this in our app 👇
 
@@ -225,7 +225,7 @@ If you want to manually install this libray you first have to install [ngx-build
 ng add ngx-build-plus
 ```
 
-**Note:** If you don't want to use the install schematic and need to know how you can manually install `ngx-build-plus`, I would like redirect you to the [official GitHub repo](https://github.com/manfredsteyer/ngx-build-plus).
+**Note:** If you don't want to use the install schematic and need to know how you can manually install `ngx-build-plus`, I would like to redirect you to the [official GitHub repo](https://github.com/manfredsteyer/ngx-build-plus).
 
 Next, we can install `ngx-template-streams` and save it as a dependency of our project:
 
